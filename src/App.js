@@ -1,22 +1,25 @@
 import React from 'react';
+import MainLayout from './components/layout/MainLayout/MainLayout';
+import AboutMe from './components/views/AboutMe/AboutMe';
+import Homepage from './components/views/HomePage/HomePage';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+// import TablesBookingId from './components/views/TablesBookingId/TablesBookingId';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <BrowserRouter>
+            <MainLayout>
+              <Switch>
+                <Route exact path={`${process.env.PUBLIC_URL}/`} component={Homepage} />
+                <Route exact path={`${process.env.PUBLIC_URL}/AboutMe`} component={AboutMe} />
+                {/* <Route exact path={`${process.env.PUBLIC_URL}/AboutMe/booking/table/:id`} component={AboutMeBookingId} /> */}
+              </Switch>
+            </MainLayout>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
