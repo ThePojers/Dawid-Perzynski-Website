@@ -11,13 +11,13 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-          <MainLayout>
-              <Switch>
-                <Route exact path={`${process.env.PUBLIC_URL}/`} component={Homepage} />
-                <Route exact path={`${process.env.PUBLIC_URL}/AboutMe`} component={AboutMe} />
-                {/* <Route exact path={`${process.env.PUBLIC_URL}/AboutMe/booking/table/:id`} component={AboutMeBookingId} /> */}
-              </Switch>
-            </MainLayout>
+        <MainLayout>
+          <Switch>
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Homepage} />
+            <Route exact path={`${process.env.PUBLIC_URL}/AboutMe`} component={AboutMe} />
+            {/* <Route exact path={`${process.env.PUBLIC_URL}/AboutMe/booking/table/:id`} component={AboutMeBookingId} /> */}
+          </Switch>
+        </MainLayout>
       </BrowserRouter>
     </Provider>
   );
