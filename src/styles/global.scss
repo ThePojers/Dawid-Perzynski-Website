@@ -7,20 +7,26 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  background: black;
+
+  background: $gradient-background;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  background: $color-light;
   font-family: $font-text;
-  font-weight: bold;
+
   font-size: ($base-size * 1.3);
   line-height: 1.7;
-  color: $color-dark;
   letter-spacing: 0.5px;
   overflow-y: scroll;
 }
 
 a, a:hover, a:visited {
   text-decoration: none;
+  color: white;
 }

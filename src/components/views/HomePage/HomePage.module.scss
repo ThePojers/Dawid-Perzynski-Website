@@ -1,19 +1,27 @@
 @import '../../../styles/settings.scss';
 
-.component {
-  padding: $base-size;
-}
-.root {
-  min-width: 275;
-}
-.bullet {
-  display: inline-block;
-  margin: 0 2px;
-  transform: scale(0.8);
-}
-.title {
-  font-size: 14;
-}
-.pos{
-  margin-bottom: 12;
+
+.container{
+  justify-content: flex-end;
+  display: flex;
+  .moon {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 20vh;
+    z-index: 100;
+  }
+  .cloud {
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 20vh;
+    z-index: 99;
+  }
+  .stars {
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    z-index: 98;
+  }
 }

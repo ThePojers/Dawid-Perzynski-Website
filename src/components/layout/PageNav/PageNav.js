@@ -8,19 +8,16 @@ const PageNav = () => (
   <nav className={styles.component}>
     <Grid fluid>
       <Row>
-        <Col xs={12}>
-          <Row start="xs">
-            <Col xs={6}>
-              <NavLink exact to={`${process.env.PUBLIC_URL}/`} activeClassName='active' className={styles.HomeName}>Dawid Perzyński </NavLink>
-            </Col>
-            <Col xsOffset={11} xs={1}>
-              <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.AboutMe}>AboutMe</NavLink>
-            </Col>
-          </Row>
+        <Col xs className={styles.Name}>
+          <NavLink exact to={`${process.env.PUBLIC_URL}/`} activeClassName='active' className={styles.Marg}>Dawid Perzynski</NavLink>
+        </Col>
+        <Col xs className={styles.AboutMe}>
+          <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.Marg}>AboutMe</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/Works`} activeClassName='active' className={styles.Marg}>Works</NavLink>
         </Col>
       </Row>
     </Grid>
-  </nav> 
+  </nav>
 
 );
 
