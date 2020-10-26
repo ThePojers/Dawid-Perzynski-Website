@@ -11,7 +11,7 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <MainLayout>
+        <MainLayout >
           <Switch>
             <Route exact path={`${process.env.PUBLIC_URL}/`} component={Homepage} />
             <Route exact path={`${process.env.PUBLIC_URL}/AboutMe`} component={AboutMe} />

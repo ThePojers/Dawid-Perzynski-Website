@@ -26,15 +26,15 @@ Object.keys(initialState).forEach(item => {
 const combinedReducers = combineReducers(reducers);
 
 const storeReducer = (state, action) => {
-    const modifiedState = globalReducer(state, action);
-    return combinedReducers(modifiedState, action);
-  };
+  const modifiedState = globalReducer(state, action);
+  return combinedReducers(modifiedState, action);
+};
 
 // create store
 const store = createStore(
-    storeReducer,
-    initialState,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  );
+  storeReducer,
+  initialState,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 export default store;
