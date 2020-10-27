@@ -1,27 +1,59 @@
-@import '../../../styles/settings.scss';
-
 
 .container{
-  justify-content: flex-end;
-  display: flex;
+
+
   .moon {
     position: absolute;
-    width: 50vw;
-    height: 50vh;
-    margin-top: 20vh;
+    max-width: 50vw;
+    max-height: 50vh;
+    left: 43%;
+    top: 25%;
     z-index: 100;
   }
-  .cloud {
-    position: relative;
-    width: 50vw;
-    height: 50vh;
-    margin-top: 20vh;
+
+  .cloudOneFront {
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    z-index: 101;
+  }
+
+  .cloudTwoFront {
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    z-index: 101;
+  }
+  .cloudThreeFront {
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    z-index: 101;
+  }
+  .cloudOneBack {
+    position: absolute;
     z-index: 99;
   }
+  .cloudOneBack {
+    position: absolute;
+    z-index: 99;
+  }
+
   .stars {
     position: absolute;
-    width: 80vw;
-    height: 80vh;
+    left: 13%;
+    max-width: 80vw;
+    max-height: 80vh;
     z-index: 98;
+    animation: glow 3s ease-in-out infinite alternate;
+    // filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+  }
+  @keyframes glow {
+    from {
+      filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+    }
+    to {
+      filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
   }
 }
