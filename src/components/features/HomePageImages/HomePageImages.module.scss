@@ -1,0 +1,66 @@
+
+.container{
+  position: relative;
+  max-width: 100vw;
+  max-height: 100vh;
+
+.moon {
+    position: absolute;
+    max-width: 50vw;
+    max-height: 50vh;
+    left: 55%;
+    top: 25%;
+    z-index: 100;
+    // filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  }
+
+  .cloudOneFront {
+   
+    left: 100%;
+    top: 55%;
+    max-width: 25vw;
+    max-height: 25vh;
+    z-index: 101;
+  }
+
+  .cloudTwoFront {
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    z-index: 101;
+  }
+  .cloudThreeFront {
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    z-index: 101;
+  }
+  .cloudOneBack {
+    position: absolute;
+    z-index: 99;
+  }
+  .cloudOneBack {
+    position: absolute;
+    z-index: 99;
+  }
+}
+
+  .stars {
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    max-width: 80vw;
+    max-height: 80vh;
+    z-index: 98;
+    animation: glowStars 3s ease-in-out infinite alternate;
+    // filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+  }
+
+  @keyframes glowStars {
+    from {
+      filter: drop-shadow(0 0 3px rgb(255, 255, 255));
+    }
+    to {
+      filter: drop-shadow(0 0 1px rgb(255, 255, 255));
+    }
+  }
