@@ -18,17 +18,17 @@
 
 .moon {
     position: absolute;
-    // align-items: flex-end;
-    // // overflow: hidden;
     width: 50vw;
     height: 50vh;
-    // margin: 10rem 0 0 80rem;
     z-index: 100;
+    // align-items: flex-end;
+    // // overflow: hidden;
+    // margin: 10rem 0 0 80rem;
     // width: 39.350180505%;
     // height: 39.350180505%;
-    
     // filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
   }
+
 // FRONT CLOUD
   .cloudOneFront {
     position: absolute;
@@ -58,7 +58,7 @@
     position: absolute;
     width: 25vw;
     height: 25vh;
-    right: 53%;
+    right: 49%;
     top: 15%;
     z-index: 99;
   }
@@ -76,7 +76,6 @@
     position: absolute;
     width: 90vw;
     height:90vh;
-    // margin: -100vh 0 0 0;
     overflow: hidden;
     z-index: 98;
     animation: glowStars 3s ease-in-out infinite alternate;
@@ -90,4 +89,10 @@
     to {
       filter: drop-shadow(0 0 1px rgb(255, 255, 255));
     }
+  }
+
+  .containertwo{
+   width: 100vw;
+   height: 100vh;
+
   }
