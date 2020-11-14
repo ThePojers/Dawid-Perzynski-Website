@@ -1,15 +1,13 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import styles from './HomePageImages.module.scss';
 
 const HomepageImages = () => {
-  const wrapper =useRef(null);
-
   useEffect(() => {
-    const mouseContainer = wrapper.current.children[0];
-    const dupa = document.querySelectorAll('svg[data-speed]');
+    const mouseContainer = document.querySelector('.wrapper-for-parralax');
+    const moveElements = document.querySelectorAll('svg[data-speed]');
 
     mouseContainer.addEventListener('mousemove',e => {
-      dupa.forEach(layer => {
+      moveElements.forEach(layer => {
         const speed = layer.getAttribute('data-speed');
         const x = (window.innerWidth - e.pageX*speed)/100;
         const y = (window.innerHeight - e.pageY*speed)/100;
@@ -20,7 +18,7 @@ const HomepageImages = () => {
   });
 
   return (
-    <div ref={wrapper}>
+    <div >
      
       {/* moon */}
       <div className={styles.containertwo}>

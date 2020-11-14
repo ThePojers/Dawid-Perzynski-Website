@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    .iconsSection{
+        display: flex;
+        margin: 0 0 80px 40px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        :nth-child(1) svg:hover{
+            fill: #959da5;
+        }
+
+        :nth-child(2) svg:hover{
+            fill:#0072b1;
+        }
+
+        :nth-child(3) svg:hover{
+            fill: #4267B2;
+        }
+
+        svg{
+            transition: all 0.5s;
+            margin-bottom: 20px;
+        }
+    }
+}
