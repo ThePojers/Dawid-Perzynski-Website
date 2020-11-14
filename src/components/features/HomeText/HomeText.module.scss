@@ -5,25 +5,32 @@
 
     .iconsSection{
         display: flex;
-        margin: 0 0 80px 40px;
+        margin: 0 0 110px 40px;
         justify-content: center;
+        flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: column;
         :nth-child(1) svg:hover{
             fill: #959da5;
+            height: 55px;
+            width: 55px;
         }
 
         :nth-child(2) svg:hover{
             fill:#0072b1;
+            height: 55px;
+            width: 55px;
         }
 
         :nth-child(3) svg:hover{
             fill: #4267B2;
+            height: 55px;
+            width: 55px;
         }
-
+        a{margin-bottom: 20px;}
         svg{
             transition: all 0.5s;
-            margin-bottom: 20px;
+            
         }
     }
 }

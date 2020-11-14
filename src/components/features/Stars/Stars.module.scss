@@ -1,17 +1,6 @@
-.back{
-  position: absolute;
-  top: 60%;
-  bottom: 0;
-  height: 80vh;
-  width: 80vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-}
 
 .night{
-   position: relative;
+   position: absolute;
     width: 60%;
     height: 60%;
     transform: rotateZ(140deg);
@@ -88,8 +77,8 @@
   }
 
   .star:nth-child(1){
-    top: calc(170% - 100px);
-    left: calc(-60% + 250px);
+    top: calc(190% - 100px);
+    left: calc(-50% + 250px);
     animation-delay: 0s;
   }
 
@@ -108,8 +97,8 @@
   }
 
   .star:nth-child(3){
-    top: calc(160% - 100px);
-    left: calc(-10% + 250px);
+    top: calc(140% - 100px);
+    left: calc(-30% + 250px);
     animation-delay: 8s;
   }
 
@@ -119,7 +108,7 @@
 
   .star:nth-child(4){
     top: calc(150% - 100px);
-    left: calc(-70% + 250px);
+    left: calc(-80% + 250px);
     animation-delay: 14s;
   }
 
