@@ -1,8 +1,40 @@
 .container {
+    position: absolute;
     width: 100vw;
     height: 100vh;
     display: flex;
+    z-index: 105;
 
+    .textSection{
+        display: flex;
+        margin: 0 0 130px 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-self: space-between;
+        flex-direction: column;
+
+        h1{
+            margin:0;
+        }
+
+        .firstLine{
+            font-size: 80px;
+            .hoverText{
+                transition: all 0.5s;
+                opacity: 0;
+            }
+        }
+
+
+        .secondLine{
+            font-size: 80px;
+        }
+    }
+    .firstLine:hover{
+        .hoverText{
+            opacity: 1;
+        }
+    }
     .iconsSection{
         display: flex;
         margin: 0 0 110px 40px;
@@ -10,6 +42,7 @@
         flex-wrap: wrap;
         align-items: flex-start;
         flex-direction: column;
+
         :nth-child(1) svg:hover{
             fill: #959da5;
             height: 55px;
@@ -27,10 +60,13 @@
             height: 55px;
             width: 55px;
         }
-        a{margin-bottom: 20px;}
+
+        a{
+            margin-bottom: 20px;
+        }
+
         svg{
             transition: all 0.5s;
-            
         }
     }
 }

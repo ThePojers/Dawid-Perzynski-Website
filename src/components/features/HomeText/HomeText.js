@@ -6,10 +6,6 @@ const HomeText = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.textSection}>
-        {/* <h1>DAWID</h1>
-        <h1>PERZYŃSKI</h1> */}
-      </div>
       <div className={styles.iconsSection}>
         <a href='https://github.com/ThePojers'>
           <svg enableBackground="new 0 0 24 24" height="50" viewBox="0 0 24 24" width="50" xmlns="http://www.w3.org/2000/svg" fill="#ffffff">
@@ -29,7 +25,13 @@ const HomeText = () => {
           </svg>
         </a>
       </div>
-
+      <div className={styles.textSection}>
+        <div>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
+          <h1 className={styles.firstLine}><span className={styles.hoverText}>YOU'll</span> BE OVER</h1>
+          <h1 className={styles.secondLine}>THE MOON</h1>
+        </div>
+      </div>
     </div>
   );};
 
