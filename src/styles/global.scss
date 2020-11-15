@@ -4,11 +4,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway Thin';
   src: url('../fonts/Raleway-Thin.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url('../fonts/Raleway-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 *, *::before, *::after {
   box-sizing: border-box;

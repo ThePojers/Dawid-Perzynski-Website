@@ -13,6 +13,7 @@
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
+        font-family: $font-header;
 
         h1{
             margin:0;
@@ -45,9 +46,9 @@
             content:' ';
             position: absolute;
             width: 4.3px;
-            height: 40px;
+            height: 0;
             background-color: #ff4d5a;
-            transform: translate(36.2px, 50px);
+            transform: translate(36.2px, 15px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -59,8 +60,9 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(36.2px, 15px);
+                
                 visibility: visible;
+                height: 30px;
                 background-color: $color-white;
 
             }
@@ -82,9 +84,9 @@
             content:' ';
             position: absolute;
             width: 4.3px;
-            height: 40px;
+            height: 0;
             background-color: #ff4d5a;
-            transform: translate(5.2px, 60px);
+            transform: translate(5.2px, 103px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -96,8 +98,8 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5.2px, 90px);
                 visibility: visible;
+                height: 30px;
                 background-color: $color-white;
 
             }
@@ -119,9 +121,9 @@
             content:' ';
             position: absolute;
             width: 4.3px;
-            height: 40px;
+            height: 0;
             background-color: #ff4d5a;
-            transform: translate(5.2px, 60px);
+            transform: translate(5.2px, 103px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -133,7 +135,7 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5.2px, 90px);
+                height: 30px;
                 visibility: visible;
                 background-color: $color-white;
 
@@ -155,10 +157,10 @@
         .hightQuality:before{
             content:' ';
             position: absolute;
-            width: 4.2px;
-            height: 40px;
+            width: 4.3px;
+            height: 0;
             background-color: #ff4d5a;
-            transform: translate(5.1px, 50px);
+            transform: translate(5.2px, 12px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -170,7 +172,7 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5.1px, 15px);
+                height: 20px;
                 visibility: visible;
                 background-color: $color-white;
 

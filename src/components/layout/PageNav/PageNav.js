@@ -8,12 +8,12 @@ const PageNav = () => (
   <nav className={styles.component}>
     <Grid fluid>
       <Row>
-        <Col xs className={styles.Name}>
-          <NavLink exact to={`${process.env.PUBLIC_URL}/`} activeClassName='active' className={styles.Marg}>Dawid Perzynski</NavLink>
+        <Col xs className={styles.name}>
+          <NavLink exact to={`${process.env.PUBLIC_URL}/`} activeClassName='active' className={styles.marg}><span>Dawid Perzynski</span></NavLink>
         </Col>
-        <Col xs className={styles.AboutMe}>
-          <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.Marg}>AboutMe</NavLink>
-          <NavLink to={`${process.env.PUBLIC_URL}/Works`} activeClassName='active' className={styles.Marg}>Works</NavLink>
+        <Col xs className={styles.aboutMe}>
+          <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.marg}>AboutMe</NavLink>
+          <NavLink to={`${process.env.PUBLIC_URL}/Works`} activeClassName='active' className={styles.marg}>Works</NavLink>
         </Col>
       </Row>
     </Grid>

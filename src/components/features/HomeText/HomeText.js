@@ -3,7 +3,6 @@ import styles from './HomeText.module.scss';
 
 
 const HomeText = () => {
-
   return (
     <div className={styles.container}>
       <div className={styles.iconsSection}>
