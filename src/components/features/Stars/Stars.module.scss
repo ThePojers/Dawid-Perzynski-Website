@@ -78,7 +78,7 @@
   }
 
   .star:nth-child(1){
-    top: calc(190% - 100px);
+    top: calc(0% - 100px);
     left: calc(-50% + 250px);
     animation-delay: 0s;
   }
@@ -88,7 +88,7 @@
   }
 
   .star:nth-child(2){
-    top: calc(100% - 100px);
+    top: calc(0% - 100px);
     left: calc(-100% + 250px);
     animation-delay: 4s;
   }
@@ -98,7 +98,7 @@
   }
 
   .star:nth-child(3){
-    top: calc(140% - 100px);
+    top: calc(0% - 100px);
     left: calc(-30% + 250px);
     animation-delay: 8s;
   }
@@ -108,7 +108,7 @@
   }
 
   .star:nth-child(4){
-    top: calc(150% - 100px);
+    top: calc(100% - 100px);
     left: calc(-80% + 250px);
     animation-delay: 14s;
   }

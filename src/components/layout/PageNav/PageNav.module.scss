@@ -12,3 +12,8 @@
 .Name {
     display: flex;
 }
+
+.component{
+    z-index: 110;
+    position: sticky;
+}

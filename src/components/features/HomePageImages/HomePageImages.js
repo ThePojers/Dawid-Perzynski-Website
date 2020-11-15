@@ -19,9 +19,7 @@ const HomepageImages = () => {
 
   return (
     < >
-     
       {/* moon */}
-
       <div className={styles.container}>
         <svg xmlns="http://www.w3.org/2000/svg" width="545" height="545" viewBox="0 0 545 545" className={styles.moon} data-speed="2">
           <g fill="none" fillRule="evenodd" >
@@ -62,7 +60,6 @@ const HomepageImages = () => {
           </g>
         </svg>
       </div>
-
     </>
   );
 };
