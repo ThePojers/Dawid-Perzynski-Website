@@ -17,11 +17,11 @@
         h1{
             margin:0;
             font-size: 80px;
+            z-index: 100;
         }
 
         .firstLine{
             position: relative;
-            z-index: 100;
         }
 
         span{
@@ -31,6 +31,7 @@
 
         // hover text section
         //USER-FRENDLY
+
         .userFrendly:after{
             content: 'user-Friendly';
             position: absolute;
@@ -43,10 +44,10 @@
         .userFrendly:before{
             content:' ';
             position: absolute;
-            width: 4.2px;
+            width: 4.3px;
             height: 40px;
             background-color: #ff4d5a;
-            transform: translate(36px, 50px);
+            transform: translate(36.2px, 50px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -80,10 +81,10 @@
         .responsive:before{
             content:' ';
             position: absolute;
-            width: 4.2px;
+            width: 4.3px;
             height: 40px;
             background-color: #ff4d5a;
-            transform: translate(5.6px, 60px);
+            transform: translate(5.2px, 60px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -95,7 +96,7 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5.6px, 90px);
+                transform: translate(5.2px, 90px);
                 visibility: visible;
                 background-color: $color-white;
 
@@ -117,10 +118,10 @@
         .modern:before{
             content:' ';
             position: absolute;
-            width: 4.2px;
+            width: 4.3px;
             height: 40px;
             background-color: #ff4d5a;
-            transform: translate(5.7px, 60px);
+            transform: translate(5.2px, 60px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -132,7 +133,7 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5.7px, 90px);
+                transform: translate(5.2px, 90px);
                 visibility: visible;
                 background-color: $color-white;
 
@@ -141,6 +142,7 @@
         }
 
         // HIGH-QUALITY
+
         .hightQuality:after{
             content: 'high-Quality';
             position: absolute;
@@ -156,7 +158,7 @@
             width: 4.2px;
             height: 40px;
             background-color: #ff4d5a;
-            transform: translate(5px, 50px);
+            transform: translate(5.1px, 50px);
             transition: all 0.4s ease-out;
             z-index: -1;
             visibility: hidden;
@@ -168,7 +170,7 @@
                 opacity: 1;
             }
             &:before{
-                transform: translate(5px, 15px);
+                transform: translate(5.1px, 15px);
                 visibility: visible;
                 background-color: $color-white;
 

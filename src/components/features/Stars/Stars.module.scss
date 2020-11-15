@@ -78,8 +78,8 @@
   }
 
   .star:nth-child(1){
-    top: calc(0% - 100px);
-    left: calc(-50% + 250px);
+    top: calc(50% - 100px);
+    left: calc(-20% + 250px);
     animation-delay: 0s;
   }
 
@@ -88,8 +88,8 @@
   }
 
   .star:nth-child(2){
-    top: calc(0% - 100px);
-    left: calc(-100% + 250px);
+    top: calc(-40% - 100px);
+    left: calc(-55% + 250px);
     animation-delay: 4s;
   }
 
@@ -98,8 +98,8 @@
   }
 
   .star:nth-child(3){
-    top: calc(0% - 100px);
-    left: calc(-30% + 250px);
+    top: calc(30% - 100px);
+    left: calc(-40% + 250px);
     animation-delay: 8s;
   }
 
@@ -108,8 +108,8 @@
   }
 
   .star:nth-child(4){
-    top: calc(100% - 100px);
-    left: calc(-80% + 250px);
+    top: calc(-10% - 100px);
+    left: calc(20% + 250px);
     animation-delay: 14s;
   }
 
