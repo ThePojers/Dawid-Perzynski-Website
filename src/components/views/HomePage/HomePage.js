@@ -11,7 +11,6 @@ const Homepage = () => {
       <HomeText />
       <HomePageImages />
       <Stars></Stars>
-    
     </div>
   );};
 

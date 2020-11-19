@@ -28,7 +28,6 @@ const HomeText = () => {
         <div className={styles.textWrapper}>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <h1>Yo<span className={styles.userFrendly}>u</span>'ll</h1>
-          {/* <span className={styles.hoverText}>YOU'll</span> */}
           <h1 className={styles.firstLine}>be ove<span className={styles.responsive}>r</span></h1>
           <h1 className={styles.secondLine}>t<span className={styles.hightQuality}>h</span>e <span className={styles.modern}>m</span>oon</h1>
         </div>
