@@ -1,8 +1,10 @@
 import React from 'react';
+import styles from './Works.module.scss';
 
 function Works() {
   return (
-    <div className="back">
+    <div>
+
     </div>
   );
 }
