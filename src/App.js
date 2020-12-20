@@ -9,16 +9,6 @@ import store from './redux/store';
 import Loading from './components/features/Loading/Loading';
 function App() {
 
-  useEffect(() => {
-    console.log('dupa');
-    const logo = document.querySelectorAll('.Loading_logo__290WZ path');
-    for( let i = 0; i< logo.length; i++){
-      console.log('Letter' + i + 'is' + logo[i].getTotalLength());
-    }
-    console.log(logo);
-  }, [],);
-
-
   return (
     <Provider store={store}>
       <Loading />

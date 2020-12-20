@@ -1,6 +1,16 @@
 
+.container {
 
-.box{
-    border-radius: 1%;
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    .box{
+        // transform: translate(-50%, -50%);
+        padding: 20px;
+        margin: 20px;
+        width: 80%;
+        max-height: 200px;
+        border-radius: 5%;
+        background-color: white;
+
+    }
 }
