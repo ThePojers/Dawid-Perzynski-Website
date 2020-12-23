@@ -1,9 +1,6 @@
 @import '../../../styles/settings.scss';
 
 .container {
-    overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
