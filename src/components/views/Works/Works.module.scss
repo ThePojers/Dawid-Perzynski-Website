@@ -1,16 +1,70 @@
+@import '../../../styles/settings.scss';
 
 .container {
-
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
-    .box{
-        // transform: translate(-50%, -50%);
+    .box {
+        border: 10px;
+        border-color: red;
+        border-radius: 4vh;
         padding: 20px;
         margin: 20px;
         width: 80%;
-        max-height: 200px;
-        border-radius: 5%;
+        max-height: 400px;
         background-color: white;
+        display: flex;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        .boxText {
+            margin-left: 10px;
+            flex: 75%;
+            color: black;
+            .title {
+                font-weight: bold;
+                margin: 0;
+            }
+        }
 
+        .boxImage {
+            flex: 25%;
+            border-radius: 10%;
+            height: 100%;
+            background-image: url('../../../images/mamma-mia.jpg');
+
+            background-size: cover;
+        }
+        .boxImage::after{
+
+        }
+        .boxOverlayText{
+
+            z-index: 100;
+            margin: 0;
+            padding: 20% 15% 10% 30%;
+
+            font-size: 40px;
+        }
+        .boxOverlay{
+            flex: 25%;
+            border-radius: 10%;
+            height: 100%;
+            background-color: black;
+            transition: .5s ease;
+            opacity: 0;
+            background-size: cover;
+            z-index: 99;
+        }
+
+        .boxImage:hover{
+            .boxOverlay{
+                opacity: 0.3;
+                .p{
+                    opacity: 1;
+                }
+            }
+
+        }
     }
 }

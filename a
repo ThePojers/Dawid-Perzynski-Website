@@ -1,0 +1,25 @@
+* [33m584e86a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Preparing for works view
+* [33m5cb6c2c[m Loading screen
+* [33m6098ca6[m  Cleaning code
+* [33m580c9be[m hover style fix
+* [33mcb0244e[m Fix stars- position
+* [33m613efd6[m text on homePage&hovers
+* [33me8631df[m text on homePage in progress
+* [33mec7e068[m  fix stars issue & icons hovers
+* [33m6ffdfbf[m Fix nav issue & add icons & fix paralax issue
+* [33m2ae6944[m Revert "test2"
+* [33m57e8f68[m Revert "test"
+* [33mace0d16[m test2
+* [33m644a47a[m test
+* [33ma4ceaf2[m  MouseMove paralax background
+* [33md858797[m[33m ([m[1;32mtmp[m[33m)[m stable homepage
+* [33m4cbf9b7[m Homepage layout in Progress
+* [33m6761014[m stars component
+* [33mf865ccc[m  Styles Navbar/ homepage
+* [33m469edf7[m Add fonts/redux
+* [33m35ed1bd[m Add Svg to project
+* [33m30c2f73[m husky test v2
+* [33m483a2f6[m husky test
+* [33m321ce3c[m eslint Test
+* [33mda4da06[m  Add store/redux, React-router
+* [33m4b36cc0[m first commit
