@@ -6,46 +6,69 @@
     overflow-y: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     .box {
-        border: 10px;
-        border-color: red;
         border-radius: 4vh;
         padding: 20px;
         margin: 20px;
         width: 80%;
         max-height: 400px;
-        background-color: white;
+        background-color: #E6E6E6;
         display: flex;
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
         .boxText {
             margin-left: 10px;
             flex: 75%;
             color: black;
+            a{
+                font-weight: bolder;
+                color: black;
+                p{
+                    transition: .5s ease;
+                }
+                
+                p:hover {
+                    color: $color-secondary;
+                }
+            }
             .title {
                 font-weight: bold;
                 margin: 0;
+
             }
         }
-
+        // Box image section
         .boxImage {
             flex: 25%;
             border-radius: 10%;
-            height: 100%;
-            background-image: url('../../../images/mamma-mia.jpg');
-
+            width: 100%;
+            background-image: url('../../../images/mamma-mia2.jpg');
+            transition: .5s ease;
             background-size: cover;
         }
-        .boxImage::after{
 
+        .boxImageSecond{
+            margin-left: 10px;
+            order: 2;
+            flex: 25%;
+            border-radius: 10%;
+            width: 100%;
+            background-image: url('../../../images/mamma-mia2.jpg');
+            transition: .5s ease;
+            background-size: cover;
         }
+
         .boxOverlayText{
-
-            z-index: 100;
+            transform: rotate(40deg);
             margin: 0;
-            padding: 20% 15% 10% 30%;
-
+            padding: 25% 0 0 35%;
+            font-weight: bolder;
             font-size: 40px;
         }
+
         .boxOverlay{
             flex: 25%;
             border-radius: 10%;
@@ -54,17 +77,45 @@
             transition: .5s ease;
             opacity: 0;
             background-size: cover;
-            z-index: 99;
         }
 
         .boxImage:hover{
+            border-radius: 15%;
             .boxOverlay{
+                border-radius: 15%;
                 opacity: 0.3;
-                .p{
-                    opacity: 1;
-                }
             }
+        }
 
+        .boxImageSecond:hover{
+            border-radius: 15%;
+            .boxOverlay{
+                border-radius: 15%;
+                opacity: 0.3;
+            }
         }
     }
+
+    .first{
+        animation: boxMoveFirst 1.5s ease ;
+        margin-top: 70px;
+    }
+
+    .second {
+        animation: boxMoveSecond 1.5s ease ;
+    }
 }
+
+@keyframes boxMoveFirst {
+    from {transform: translate(10%);
+    opacity: 0.6;}
+    to {transform: translate(0);
+    opacity: 1;}
+  }
+@keyframes boxMoveSecond {
+    from {transform: translate(-10%);
+    opacity: 0.6;}
+    to {transform: translate(0);
+    opacity: 1;}
+}
+
