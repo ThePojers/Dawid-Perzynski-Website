@@ -29,7 +29,7 @@
                 p{
                     transition: .5s ease;
                 }
-                
+
                 p:hover {
                     color: $color-secondary;
                 }
@@ -45,9 +45,14 @@
             flex: 25%;
             border-radius: 10%;
             width: 100%;
-            background-image: url('../../../images/mamma-mia2.jpg');
             transition: .5s ease;
             background-size: cover;
+        }
+        .pizza{
+            background-image: url('../../../images/mamma-mia2.jpg');
+        }
+        .login{
+            background-image: url('../../../images/Login-interface.jpg');
         }
 
         .boxImageSecond{
@@ -56,7 +61,6 @@
             flex: 25%;
             border-radius: 10%;
             width: 100%;
-            background-image: url('../../../images/mamma-mia2.jpg');
             transition: .5s ease;
             background-size: cover;
         }
@@ -79,15 +83,7 @@
             background-size: cover;
         }
 
-        .boxImage:hover{
-            border-radius: 15%;
-            .boxOverlay{
-                border-radius: 15%;
-                opacity: 0.3;
-            }
-        }
-
-        .boxImageSecond:hover{
+        div:hover{
             border-radius: 15%;
             .boxOverlay{
                 border-radius: 15%;
