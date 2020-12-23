@@ -16,7 +16,6 @@ const PageNav = () => {
       const aboutMe = navElements[1];
       const works = navElements[2];
 
-      
       window.addEventListener('load', function(){
         if(window.location.href.includes('Works') ){
           document.body.style.overflow ='scroll';

@@ -5,13 +5,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    &:nth-child(1){
+        margin-top: 20px;
+    }
 
     .box {
         border-radius: 4vh;
         padding: 20px;
         margin: 20px;
         width: 80%;
-        max-height: 400px;
         background-color: #E6E6E6;
         display: flex;
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -50,6 +52,12 @@
         }
         .login{
             background-image: url('../../../images/Login-interface.jpg');
+        }
+        .shop{
+            background-image: url('../../../images/shop.jpg');
+        }
+        .travel{
+            background-image: url('../../../images/travels.jpg');
         }
 
         .boxImageSecond{
@@ -91,7 +99,7 @@
 
     .first{
         animation: boxMoveFirst 1.5s ease ;
-        margin-top: 70px;
+
     }
 
     .second {
