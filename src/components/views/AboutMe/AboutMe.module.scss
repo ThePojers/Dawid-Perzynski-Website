@@ -1,5 +1,68 @@
-// .back{
-//     background: rgb(3, 3, 3);
-//     width: 400px;
-//     height: 400px;
-// }
+@import '../../../styles/settings.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &:nth-child(1){
+        margin-top: 100px;
+    }
+
+    .box {
+        border-radius: 4vh;
+        padding: 20px;
+        margin: 20px;
+        width: 30%;
+        background-color: #E6E6E6;
+        display: flex;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+        .boxText {
+            margin-left: 10px;
+            flex: 75%;
+            color: black;
+            a{
+                font-weight: bolder;
+                color: black;
+                p{
+                    transition: .5s ease;
+                }
+
+                p:hover {
+                    color: $color-secondary;
+                }
+            }
+            .title {
+                font-weight: bold;
+                margin: 0;
+
+            }
+        }
+    }
+
+    .first{
+        animation: boxMoveFirst 1.5s ease ;
+
+    }
+
+    .second {
+        width: 70%;
+        animation: boxMoveSecond 1.5s ease ;
+    }
+}
+
+@keyframes boxMoveFirst {
+    from {transform: translate(10%);
+    opacity: 0.6;}
+    to {transform: translate(0);
+    opacity: 1;}
+  }
+@keyframes boxMoveSecond {
+    from {transform: translate(-10%);
+    opacity: 0.6;}
+    to {transform: translate(0);
+    opacity: 1;}
+}
+
