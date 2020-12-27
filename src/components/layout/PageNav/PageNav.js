@@ -17,12 +17,12 @@ const PageNav = () => {
       const works = navElements[2];
 
       window.addEventListener('load', function(){
-        if(window.location.href.includes('Works') ){
+        if(window.location.href.includes('Works') || window.location.href.includes('AboutMe')){
           document.body.style.overflow ='scroll';
         }
       });
       aboutMe.addEventListener('click', function(){
-        document.body.style.overflow ='hidden';
+        document.body.style.overflow ='scroll';
       });
 
       works.addEventListener('click', function(){

@@ -8,7 +8,15 @@
     &:nth-child(1){
         margin-top: 20px;
     }
+    .stars{
 
+        position:absolute;
+        top: 0;
+        width: 100vw;
+        height: 150vh;
+        z-index: -1;
+        animation: starsRising 3s ease;
+    }
     .box {
         border-radius: 4vh;
         padding: 20px;
@@ -128,10 +136,18 @@
     to {transform: translate(0);
     opacity: 1;}
   }
+
 @keyframes boxMoveSecond {
     from {transform: translate(-10%);
     opacity: 0.6;}
     to {transform: translate(0);
     opacity: 1;}
+}
+
+@keyframes starsRising {
+    from {
+        opacity: 0;}
+    to {
+        opacity: 1;}
 }
 

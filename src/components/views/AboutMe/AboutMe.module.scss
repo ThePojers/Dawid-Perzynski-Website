@@ -10,6 +10,15 @@
         margin-top: 100px;
     }
 
+    .stars{
+        position:absolute;
+        top: 0;
+        z-index: -1;
+        width: 100vw;
+        height: 100vh;
+        animation: starsRising 3s ease;
+    }
+
     .box {
         border-radius: 4vh;
         padding: 20px;
@@ -45,13 +54,17 @@
     }
 
     .first{
-        animation: boxMoveFirst 1.5s ease ;
-
+        animation: boxMoveFirst 1.5s ease, boxBorderShow .5s ease;
+        animation-delay: boxBorderShow 2s;
     }
 
     .second {
-        width: 70%;
         animation: boxMoveSecond 1.5s ease ;
+    }
+
+    .third {
+        width: 70%;
+        animation: boxMoveThird 1.5s ease ;
     }
 }
 
@@ -68,3 +81,29 @@
     opacity: 1;}
 }
 
+@keyframes boxMoveThird {
+    from {transform: translate(0, 10%);
+    opacity: 0.6;}
+    to {transform: translate(0);
+    opacity: 1;}
+}
+
+@keyframes boxBorderShow {
+    from {
+        opacity: border-botton 0;
+        border-bottom: 4px solid ;
+        border-color: $color-secondary;
+    }
+    to {
+        opacity: border-botton 1;
+        border-bottom: 4px solid ;
+        border-color: $color-secondary;
+    }
+}
+
+@keyframes starsRising {
+    from {
+        opacity: 0;}
+    to {
+        opacity: 1;}
+}
