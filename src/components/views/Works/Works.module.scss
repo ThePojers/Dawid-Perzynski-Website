@@ -17,6 +17,18 @@
         background-color: #E6E6E6;
         display: flex;
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        border-bottom: 4px solid ;
+        border-color: $color-secondary;
+
+        // &::after{
+        //     content: ' ';
+        //     border-radius:100vh;
+        //     border-bottom: 2px solid ;
+        //     position: absolute;
+        //     height: inherit;
+        //     width: inherit;
+        //     transform: translate(-15px,-37px);
+        // }
 
         .boxText {
             margin-left: 10px;
