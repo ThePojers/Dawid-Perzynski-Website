@@ -18,7 +18,7 @@ function AboutMe() {
               Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
         </div>
       </div>
-      
+
       <div className={`${styles.box} ${styles.first}`}>
         <div className={styles.boxText}>
           <p className={styles.title}>My journey:</p>
@@ -28,8 +28,6 @@ function AboutMe() {
         </div>
       </div>
 
-
-      
       <div className={`${styles.box} ${styles.third}`}>
         <div className={styles.boxText}>
           <p className={styles.title}>Passion:</p>

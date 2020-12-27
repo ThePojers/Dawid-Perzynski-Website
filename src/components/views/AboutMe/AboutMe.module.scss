@@ -54,8 +54,7 @@
     }
 
     .first{
-        animation: boxMoveFirst 1.5s ease, boxBorderShow .5s ease;
-        animation-delay: boxBorderShow 2s;
+        animation: boxMoveFirst 1.5s ease;
     }
 
     .second {
@@ -86,19 +85,6 @@
     opacity: 0.6;}
     to {transform: translate(0);
     opacity: 1;}
-}
-
-@keyframes boxBorderShow {
-    from {
-        opacity: border-botton 0;
-        border-bottom: 4px solid ;
-        border-color: $color-secondary;
-    }
-    to {
-        opacity: border-botton 1;
-        border-bottom: 4px solid ;
-        border-color: $color-secondary;
-    }
 }
 
 @keyframes starsRising {
