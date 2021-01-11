@@ -6,6 +6,7 @@
     height: 100vh;
     display: flex;
     z-index: 105;
+    overflow: hidden;
 
     .textSection{
         display: flex;
@@ -245,3 +246,36 @@
     }
 }
 
+
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        flex-direction: column-reverse !important;
+    }
+    .iconsSection{
+        flex-direction: row !important;
+        padding: 0 0 110px 0 !important;
+        :nth-child(1){
+            margin-left: 0;
+        }
+
+        a {
+
+            margin-left: 20px;
+        }
+    }
+    .textSection{
+        margin: 0 !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        height: 80vh;
+    }
+    .iconsSection{
+        flex-direction: row !important;
+        padding: 0 0 0px 0 !important;
+    }
+}

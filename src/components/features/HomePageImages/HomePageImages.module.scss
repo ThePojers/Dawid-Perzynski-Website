@@ -8,6 +8,7 @@
   margin: auto;
   height: 80vh;
   width: 80vw;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,8 +66,8 @@
 
   .stars {
     position: absolute;
-    width: 90vw;
-    height:90vh;
+    width: 90%;
+    height:90%;
     overflow: hidden;
     z-index: 98;
     animation: glowStars 3s ease-in-out infinite alternate;
@@ -81,3 +82,49 @@
       filter: drop-shadow(0 0 1px rgb(255, 255, 255));
     }
   }
+
+
+  @media only screen and (max-width: 1024px) {
+    .moon {
+      width: 30vw !important;
+      height: 30vh !important;
+    }
+
+    // FRONT CLOUD
+    .cloudOneFront {
+      left: 23% !important;
+      top: 45% !important;
+    }
+
+    .cloudTwoFront {
+      left: 50% !important;
+      top: 40% !important;
+    }
+    .cloudThreeFront {
+      left: 43% !important;
+      top: 25% !important;
+
+    }
+  // BACK CLOUD
+    .cloudOneBack {
+      right: 49% !important;
+      top: 25% !important;
+    }
+    .cloudTwoBack {
+
+      right: 23% !important;
+      top: 25% !important;
+
+    }
+    .container {
+      top: -10%;
+      left: 10%;
+      margin: 0;
+    }
+}
+@media only screen and (max-width: 576px) {
+
+  .container{
+    display: none;
+  }
+}

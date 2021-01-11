@@ -1,10 +1,11 @@
 
 .night{
    position: absolute;
-    width: 1000px;
-    height: 500px;
+   width: 60%;
+   height: 60%;
     transform: rotateZ(140deg);
     z-index: -1;
+    overflow: hidden;
   }
 
   .star{
@@ -115,4 +116,11 @@
 
   .star:nth-child(4)::before, .star:nth-child(4)::after{
     animation-delay: 14s;
+  }
+
+  @media only screen and (max-width: 576px) {
+
+    .night{
+      display: none;
+    }
   }
