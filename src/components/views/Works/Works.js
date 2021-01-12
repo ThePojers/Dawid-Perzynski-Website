@@ -18,6 +18,7 @@ function Works() {
             </div>
           </a>
         </div>
+
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -4,9 +4,9 @@ import globalReducer from './globalRedux';
 // define initial state and shallow-merge initial global
 const initialState = {
   global: {
-    loading: {
-      active: false,
-      error: false,
+    works: {
+      id: 1,
+      text: 'dasdsa',
     },
   },
 };
