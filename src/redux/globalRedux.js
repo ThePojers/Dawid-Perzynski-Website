@@ -1,5 +1,5 @@
 /* SELECTORS */
-
+export const getData = ({global}) => global.data;
 
 /* ACTIONS */
 
