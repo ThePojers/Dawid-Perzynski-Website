@@ -11,31 +11,80 @@ function AboutMe() {
         </g>
       </svg>
       <div className={`${styles.box} ${styles.second}`}>
-        <div className={styles.boxText}>
-          <p className={styles.title}>Skill set:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-              Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+        {/* <div className={`${styles.boxText} ${styles.iconContainer}`}> */}
+        <p className={styles.title}>Skill set:</p>
+        {/* <div className={styles.row}> */}
+        <div className={styles.iconContainer}>
+          <svg className={styles.icon} aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5"  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z">
+            </path>
+          </svg>
         </div>
+
+        <div className={styles.iconContainer}>
+          <svg className={styles.icon} aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5"  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z">
+            </path>
+          </svg>
+        </div>
+
+        <div className={styles.iconContainer}>
+          <svg className={styles.icon} aria-hidden="true" focusable="false" data-prefix="fab" data-icon="html5"  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path fill="currentColor" d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z">
+            </path>
+          </svg>
+        </div>
+
+        <div className={styles.iconContainer}>
+          <svg className={styles.icon} aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path fill="currentColor" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z">
+            </path>
+          </svg>
+        </div>
+
+        <div className={styles.iconContainer}>
+          <svg className={styles.icon} aria-hidden="true" focusable="false" data-prefix="fab" data-icon="css3-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <path fill="currentColor" d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z">
+            </path>
+          </svg>
+        </div>
+        {/* </div> */}
+        {/* </div> */}
       </div>
 
       <div className={`${styles.box} ${styles.first}`}>
         <div className={styles.boxText}>
-          <p className={styles.title}>My journey:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-              Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p className={styles.title}>We offer:</p>
+
+          <ul>
+            <li>
+              <p>
+                The best for every budget-
+                Find high-quality services at every price point. No hourly rates, just project-based pricing.
+              </p>
+            </li>
+            <li>
+              <p>
+                Protected payments, every time-
+                Always know what you&#180;ll pay upfront. Your payment isn&#180;t released until you approve the work.
+              </p>
+            </li>
+            <li>
+              <p>
+                I highly value KISS and DRY practices. The websites created by me are modern, responsive and user-friendly.
+              </p>
+            </li>
+          </ul>
+
+
+
         </div>
       </div>
 
       <div className={`${styles.box} ${styles.third}`}>
         <div className={styles.boxText}>
-          <p className={styles.title}>Passion:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-              Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odioLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-              Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p className={styles.title}>About me:</p>
+          <p>I am a front-end developer with a flair for design. About 1.5 years ago I made a decision to start my programming journey .. I have been systematically learning programming for over a year. I completed an intensive 9-month programming course(Bootcamp Web Developer Plus at Kodilla) under the supervision of an individual mentor. After completing the course, I was awarded a cooperation offer as a mentor.. Currently, in addition to working as a mentor, I am a   websites creator freelancer. I am constantly practicing new areas of my skills, learning about technologies. I can support my knowledge with numerous projects. I am willing to take part in open-source projects.</p>
         </div>
       </div>
     </div>

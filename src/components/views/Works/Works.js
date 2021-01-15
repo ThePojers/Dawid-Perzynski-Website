@@ -21,11 +21,9 @@ function Works() {
 
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-            Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p>Website made in react using create-react-app. When I was creating this website, I followed the examples of the best websites that have been awarded by awwwards. The animations were created in pure css with scss as a pre-processor. I manage the state of the application using the redux. The website is prepared to implement future features.</p>
           <p className={styles.title}>Tech stack:</p>
-          <p>Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ul</p>
+          <p>HTML, CSS, JavaScript, scss, react, redux, create react app, eslint, react-router-dom, react-router-transition, reac-flexbox-grid, husky, webpack, npm/yarn</p>
           <a href="https://github.com/ThePojers/Dawid-Perzynski-Website" target='_blanket'><p>Source Code</p></a>
         </div>
       </div>
@@ -40,11 +38,9 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-            Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p>Project made as part of the annual web developer plus bootcamp. This is an example of a complete website for a travel agency. The code was written, among other things, using the TDD method. The website features a happy hour counter and an automatic change of availability of current employees. Tests were done with jest and enzyme.</p>
           <p className={styles.title}>Tech stack:</p>
-          <p>Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ul</p>
+          <p>HTML, CSS, JavaScript, scss, react, redux, eslint, react-router-dom, react-router-transition, reac-flexbox-grid, husky, jest, enzyme, webpack, npm/yarn</p>
           <a href="https://github.com/ThePojers/Travel-Agency" target='_blanket'><p>Source Code</p></a>
         </div>
       </div>
@@ -59,11 +55,9 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-            Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p>Group project made as part of the annual web developer plus bootcamp. We worked in the kanban system with the help of Jira. The project was developed by a total of 4 people. Project manager supervised our work. Our duties included mutual code review.</p>
           <p className={styles.title}>Tech stack:</p>
-          <p>Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ul</p>
+          <p>HTML, CSS, JavaScript, scss, react, redux, immutability-helper, eslint, react-router-dom, react-alice-carousel, husky, jest, enzyme, webpack, prettier, npm/yarn</p>
           <a href="https://github.com/PatrykBulaKodilla/wdp-2009-01" target='_blanket'><p>Source Code</p></a>
         </div>
       </div>
@@ -78,11 +72,9 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-            Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p>Following good practice, I transferred AXIOS to the redux. The downloaded data from data-base is saved in the store. Additionally, it is very easy to add 	&#8220;lazy Loading&#8220; by managing loading.active variable. To get an incorrect answer from the server, enter the password: 	&#8220;Niedziała123&#8220;</p>
           <p className={styles.title}>Tech stack:</p>
-          <p>Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ul</p>
+          <p>HTML, CSS, SCSS, Material-Ui, JavaScript, ES6/Typescript, React, Redux, React-Router-Dom, Redux-thunk, Axios, husky(lint-staged), Create-react-app, Npm/Yarn, eslint</p>
           <a href="https://github.com/ThePojers/React-task-Codibly" target='_blanket'><p>Source Code</p></a>
         </div>
       </div>
@@ -97,11 +89,9 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ultrices.
-            Ante in nibh mauris cursus. Volutpat commodo sed egestas egestas. Vestibulum sed arcu non odio</p>
+          <p>Project made as part of the annual web developer plus bootcamp. This is an example of a complete page for an Italian restaurant. The website was written using pure JavaScript. The website has connectivity to the database on the basis of which tables can be booked.</p>
           <p className={styles.title}>Tech stack:</p>
-          <p>Nibh venenatis cras sed felis eget velit aliquet. Risus in hendrerit gravida rutrum quisque non tellus. Morbi blandit cursus risus at ul</p>
+          <p>HTML, CSS, SCSS, JavaScript, ES6, Npm/Yarn, eslint, npm-run-all</p>
           <a href="https://github.com/ThePojers/Project-Pizzeria" target='_blanket'><p>Source Code</p></a>
         </div>
       </div>
