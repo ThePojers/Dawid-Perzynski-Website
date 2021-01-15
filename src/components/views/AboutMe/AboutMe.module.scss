@@ -31,6 +31,7 @@
         box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
         border-bottom: 4px solid ;
         border-color: $color-secondary;
+
         .title {
             color: black;
             font-weight: bold;
@@ -40,14 +41,10 @@
         }
         .iconContainer {
             position: relative;
-            flex: 40%;
+            flex: 30%;
             color: black;
-            margin-bottom: 10px;
-            &::after{
-                content:'HTML';
-                position: absolute;
-                transform: translate(-45px, 48px);
-            }
+            margin-bottom: 23px;
+            font-weight: bold;
         }
         .icon{
             max-width: 50px;
@@ -56,7 +53,7 @@
         .boxText {
             margin-left: 10px;
             color: black;
-            flex: 10%;
+            flex: 75%;
 
             a{
                 font-weight: bolder;
@@ -79,6 +76,69 @@
 
     .second {
         animation: boxMoveSecond 1.5s ease ;
+        :nth-child(2){
+            &::after{
+                content:'HTML';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(3){
+            &::after{
+                content:'CSS';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(4){
+            &::after{
+                content:'JavaScript';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(5){
+            &::after{
+                content:'Boostrap';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(6){
+            &::after{
+                content:'React & Redux';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(7){
+            &::after{
+                content:'Sass';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(8){
+            &::after{
+                content:'Photoshop';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(9){
+            &::after{
+                content:'Git';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
+        :nth-child(10){
+            &::after{
+                content:'Material-UI';
+                position: absolute;
+                transform: translate(-45px, 48px);
+            }
+        }
     }
 
     .third {

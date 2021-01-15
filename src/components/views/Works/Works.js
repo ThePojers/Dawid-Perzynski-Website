@@ -38,7 +38,7 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Project made as part of the annual web developer plus bootcamp. This is an example of a complete website for a travel agency. The code was written, among other things, using the TDD method. The website features a happy hour counter and an automatic change of availability of current employees. Tests were done with jest and enzyme.</p>
+          <p>Project made as part of the annual Web Developer Plus Bootcamp. This is an example of a complete website for a travel agency. The code was written, among other things, using the TDD method. The website features a happy hour counter and an automatic change of availability of current employees. Tests were done with jest and enzyme.</p>
           <p className={styles.title}>Tech stack:</p>
           <p>HTML, CSS, JavaScript, scss, react, redux, eslint, react-router-dom, react-router-transition, reac-flexbox-grid, husky, jest, enzyme, webpack, npm/yarn</p>
           <a href="https://github.com/ThePojers/Travel-Agency" target='_blanket'><p>Source Code</p></a>
@@ -55,7 +55,7 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Group project made as part of the annual web developer plus bootcamp. We worked in the kanban system with the help of Jira. The project was developed by a total of 4 people. Project manager supervised our work. Our duties included mutual code review.</p>
+          <p>Group project made as part of the annual Web Developer Plus Bootcamp. We worked in the kanban system with the help of Jira. The project was developed by a total of 4 people. Project manager supervised our work. Our duties included mutual code review.</p>
           <p className={styles.title}>Tech stack:</p>
           <p>HTML, CSS, JavaScript, scss, react, redux, immutability-helper, eslint, react-router-dom, react-alice-carousel, husky, jest, enzyme, webpack, prettier, npm/yarn</p>
           <a href="https://github.com/PatrykBulaKodilla/wdp-2009-01" target='_blanket'><p>Source Code</p></a>
@@ -89,7 +89,7 @@ function Works() {
         </div>
         <div className={styles.boxText}>
           <p className={styles.title}>About:</p>
-          <p>Project made as part of the annual web developer plus bootcamp. This is an example of a complete page for an Italian restaurant. The website was written using pure JavaScript. The website has connectivity to the database on the basis of which tables can be booked.</p>
+          <p>Project made as part of the annual Web Developer Plus Bootcamp. This is an example of a complete page for an Italian restaurant. The website was written using pure JavaScript. The website has connectivity to the database on the basis of which tables can be booked.</p>
           <p className={styles.title}>Tech stack:</p>
           <p>HTML, CSS, SCSS, JavaScript, ES6, Npm/Yarn, eslint, npm-run-all</p>
           <a href="https://github.com/ThePojers/Project-Pizzeria" target='_blanket'><p>Source Code</p></a>
