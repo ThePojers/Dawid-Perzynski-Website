@@ -9,7 +9,10 @@
     &:nth-child(1){
         margin-top: 100px;
     }
-
+    .row {
+        display: flex;
+        justify-content: center;
+    }
     .stars{
         position:absolute;
         top: 0;
@@ -36,24 +39,28 @@
             color: black;
             font-weight: bold;
             flex: 100%;
-            margin: 0;
+            margin: 0 ;
 
         }
         .iconContainer {
             position: relative;
             flex: 30%;
+            height: inherit;
             color: black;
             margin-bottom: 23px;
             font-weight: bold;
+
         }
         .icon{
             max-width: 50px;
             max-height: 50px;
+
         }
         .boxText {
             margin-left: 10px;
             color: black;
             flex: 75%;
+
 
             a{
                 font-weight: bolder;
@@ -72,11 +79,15 @@
 
     .first{
         animation: boxMoveFirst 1.5s ease;
+        flex: 30%;
     }
 
     .second {
-        animation: boxMoveSecond 1.5s ease ;
+        animation: boxMoveSecond 1.5s ease;
+        flex: 30%;
         :nth-child(2){
+                animation: iconGlowing 30s ease infinite;
+                animation-delay: 1s;
             &::after{
                 content:'HTML';
                 position: absolute;
@@ -84,6 +95,8 @@
             }
         }
         :nth-child(3){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 16s;
             &::after{
                 content:'CSS';
                 position: absolute;
@@ -91,52 +104,62 @@
             }
         }
         :nth-child(4){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 4s;
             &::after{
                 content:'JavaScript';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(5){
             &::after{
                 content:'Boostrap';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(6){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 8s;
             &::after{
-                content:'React & Redux';
+                content:'React&Redux';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(7){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 25s;
             &::after{
                 content:'Sass';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(8){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 12s;
             &::after{
                 content:'Photoshop';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(9){
+            animation: iconGlowing 30s ease infinite;
+            animation-delay: 20s;
             &::after{
                 content:'Git';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
         :nth-child(10){
             &::after{
                 content:'Material-UI';
                 position: absolute;
-                transform: translate(-45px, 48px);
+                transform: translate(-50px, 48px);
             }
         }
     }
@@ -146,6 +169,21 @@
         animation: boxMoveThird 1.5s ease ;
     }
 }
+
+@keyframes iconGlowing {
+    0%{
+        color: black;
+      }
+      3%{
+          color: $color-secondary;
+      }
+      7% {
+          color: black;
+      }
+      100%{
+        color: black;
+      }
+  }
 
 @keyframes boxMoveFirst {
     from {transform: translate(10%);
@@ -181,5 +219,8 @@
     }
     .box{
         width: 90% !important;
+    }
+    .row{
+        flex-direction: column;
     }
 }

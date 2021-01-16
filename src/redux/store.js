@@ -6,7 +6,7 @@ const initialState = {
   global: {
     works: {
       id: 1,
-      text: 'dasdsa',
+      text: '',
     },
   },
 };
