@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import MainLayout from './components/layout/MainLayout/MainLayout';
 import AboutMe from './components/views/AboutMe/AboutMe';
 import Homepage from './components/views/HomePage/HomePage';
-import Works from './components/views/Works/Works';
+import Works from './components/views/Works/WorksContainer';
 import {BrowserRouter, Route} from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 import { Provider } from 'react-redux';

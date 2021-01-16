@@ -1,10 +1,9 @@
 import { connect } from 'react-redux';
-import LoginPage from './LoginPage';
-import {  getData, getLoadingState } from '../../../redux/axiosRedux';
+import Works from './Works';
+import {  getData } from '../../../redux/globalRedux';
 
 const mapStateToProps = (state) => ({
   data: getData(state),
-  loading: getLoadingState(state),
 });
 
-export default connect(mapStateToProps)(LoginPage);
+export default connect(mapStateToProps)(Works);
