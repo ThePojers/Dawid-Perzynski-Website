@@ -14,7 +14,7 @@ function Works({data}) {
         </g>
       </svg>
       {data.map(type =>{
-        return <div key={type.id} className={`${styles.box} ${type.boxOrder ? `${styles.first}`: `${styles.second}`}}`}>
+        return <div key={type.id} className={`${styles.box} ${type.boxOrder ? `${styles.first}`: `${styles.second}`}`}>
           <div className={`${type.imageSide} ${type.image}`}>
             <a href={type.linkWebsite} target='_blanket'>
               <div className={styles.boxOverlay}>
