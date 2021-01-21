@@ -2,6 +2,7 @@
   "name": "pizzernia_portal",
   "version": "0.1.0",
   "private": true,
+  "homepage": "htttp://perzynski.pl",
   "scripts": {
     "start": "run-p start:* ",
     "start-silent": "run-p start > /dev/null",

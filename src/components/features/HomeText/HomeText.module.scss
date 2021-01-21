@@ -251,6 +251,7 @@
 @media only screen and (max-width: 1024px) {
     .container{
         flex-direction: column-reverse !important;
+
     }
     .iconsSection{
         flex-direction: row !important;
@@ -273,6 +274,10 @@
 @media only screen and (max-width: 576px) {
     .container {
         height: 80vh;
+        transform: translate(0,-40px);
+        ::after{
+            display: none;
+        }
     }
     .iconsSection{
         flex-direction: row !important;

@@ -115,8 +115,7 @@ function AboutMe() {
           <p className={styles.title}>About me:</p>
           <p>I am a front-end developer with a flair for design. About 1.5 years ago I made a decision to start my programming journey ..
              I have been systematically learning programming for over a year. I completed an intensive 9-month programming course(Bootcamp Web Developer Plus at Kodilla)
-             under the supervision of an individual mentor. After completing the course, I was awarded a cooperation offer as a mentor.. Currently, in addition to working
-             as a mentor, I am a   websites creator freelancer. I am constantly practicing new areas of my skills, learning about technologies. I can support my knowledge
+             under the supervision of an individual mentor. After completing the course, I was awarded a cooperation offer as a mentor.. Currently I am a websites creator freelancer. I am constantly practicing new areas of my skills, learning about technologies. I can support my knowledge
               with numerous projects. I am willing to take part in open-source projects.</p>
         </div>
       </div>
