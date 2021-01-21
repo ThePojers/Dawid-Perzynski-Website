@@ -15,5 +15,43 @@
 
 .component{
     z-index: 110;
+    a{
+        position: relative;
+        font-size: 18px;
+    }
+    span::before,
+    span::after{
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        top: 50%;
+        margin-top: -0.5px;
+        background: $color-secondary;
+    }
+    span::before{
+        left: -2.5px;
+    }
+    span::after{
+        right: 2.5px;
+        background: $color-secondary;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
+    span:hover::after{
+        background: transparent;
+        width: 100%;
+        transition: 0s;
+    }
+    span:hover::before{
+        background: $color-secondary;
+        width: 100%;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    }
 }
 
+
+@media only screen and (max-width: 564px) {
+    a{
+        font-size: 15px !important;
+    }
+}

@@ -42,8 +42,8 @@ const PageNav = () => {
             <NavLink exact to={`${process.env.PUBLIC_URL}/`} activeClassName='active' className={styles.marg}><span>Dawid Perzynski</span></NavLink>
           </Col>
           <Col xs className={styles.aboutMe}>
-            <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.marg}>AboutMe</NavLink>
-            <NavLink to={`${process.env.PUBLIC_URL}/Works`} activeClassName='active' className={styles.marg}>Works</NavLink>
+            <NavLink to={`${process.env.PUBLIC_URL}/AboutMe`} activeClassName='active' className={styles.marg}><span>AboutMe</span></NavLink>
+            <NavLink to={`${process.env.PUBLIC_URL}/Works`} activeClassName='active' className={styles.marg}><span>Works</span></NavLink>
           </Col>
         </Row>
       </Grid>
